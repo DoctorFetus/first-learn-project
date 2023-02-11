@@ -1,7 +1,28 @@
 body {
     width: 70%;
-    margin: auto;
+    margin: 0 auto;
+    font-family: Verdana;
 }
-table {
-    margin: auto;
+table, tr, td, th {
+    margin: 0 auto;
+    border: 1px solid;
+}
+h1 {
+    margin-top: 1,5em;
+    font-size: 32px;
+}
+h2 {
+    margin-top: 1,5em;
+}
+figcaption {
+    font-style: italic;
+    max-width: 200px;
+    margin: 0 auto;
+    
+}
+.picture {
+    float: right;
+}
+.picture_right {
+    float: left;
 }
